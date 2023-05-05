@@ -1,0 +1,25 @@
+{
+  "name": "age-calculator-app-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "postcss src/css/style.css -o public/css/style.css --no-map",
+    "build": "babel src/js/index.js -o public/js/index.js",
+    "uglify": "uglifyjs public/js/index.js -o public/js/index.js",
+    "minify": "npm run build && npm run uglify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "7.21.0",
+    "@babel/core": "7.21.4",
+    "@babel/preset-env": "7.21.4",
+    "autoprefixer": "10.4.14",
+    "cssnano": "6.0.1",
+    "postcss": "8.4.23",
+    "postcss-cli": "10.1.0",
+    "uglify-js": "3.17.4"
+  }
+}

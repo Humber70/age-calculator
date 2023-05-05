@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Age calculator app</title>
+  </head>
+  <body>
+    <div class="container-form">
+      <form action="" id="form" class="form-inputs">
+        <div class="cont-inputs">
+          <label for="day">DAY</label>
+          <input
+            type="number"
+            name="day"
+            id="day"
+            placeholder="DD"
+            max="2"
+            required
+          />
+          <span class="error"></span>
+        </div>
+
+        <div class="cont-inputs">
+          <label for="month">MONTH</label>
+          <input
+            type="number"
+            name="month"
+            id="month"
+            placeholder="MM"
+            required
+          />
+          <span class="error"></span>
+        </div>
+
+        <div class="cont-inputs">
+          <label for="years">YEARS</label>
+          <input
+            type="number"
+            name="years"
+            id="years"
+            placeholder="YYYY"
+            required
+          />
+          <span class="error"></span>
+        </div>
+      </form>
+      <!--- boton -->
+      <div class="btn">
+        <hr />
+        <img src="./assets/images/icon-arrow.svg" alt="btn" id="btn" />
+      </div>
+
+      <div class="info">
+        <div class="cont-info">
+          <div id="old-year" class="element">- -</div>
+          <span>years</span>
+        </div>
+
+        <div class="cont-info">
+          <div id="months" class="element">- -</div>
+
+          <span>months</span>
+        </div>
+
+        <div class="cont-info">
+          <div id="days" class="element">- -</div>
+
+          <span>days</span>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
