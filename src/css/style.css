@@ -39,7 +39,7 @@ body {
   border-radius: 1rem;
   border-bottom-right-radius: 5rem;
   padding: 1rem 2rem;
-  margin: 20px 0px;
+  margin: 20px 10px;
 }
 
 .form-inputs {
@@ -154,7 +154,7 @@ hr {
   }
 
   .container-form {
-    max-width: 60%;
+    max-width: 450px;
   }
 
   .cont-info {
